@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/lgabr/Desktop/frames1_2020-master/web/index.xhtml</file>
+            <file>file:/C:/Users/lgabr/Desktop/frames1_2020-master/web/views/area/cadastrarArea.xhtml</file>
+            <file>file:/C:/Users/lgabr/Desktop/frames1_2020-master/src/java/br/com/jsfinicio/controller/ProfessorController.java</file>
+            <file>file:/C:/Users/lgabr/Desktop/frames1_2020-master/web/template/template.xhtml</file>
+            <file>file:/C:/Users/lgabr/Desktop/frames1_2020-master/src/java/br/com/jsfinicio/model/AreaModel.java</file>
+            <file>file:/C:/Users/lgabr/Desktop/frames1_2020-master/web/views/area/buscarArea.xhtml</file>
+            <file>file:/C:/Users/lgabr/Desktop/frames1_2020-master/src/java/br/com/jsfinicio/repository/AreaRepository.java</file>
+            <file>file:/C:/Users/lgabr/Desktop/frames1_2020-master/src/java/br/com/jsfinicio/controller/AreaController.java</file>
+            <file>file:/C:/Users/lgabr/Desktop/frames1_2020-master/src/java/br/com/jsfinicio/repository/ProfessorRepository.java</file>
+        </group>
+    </open-files>
+</project-private>

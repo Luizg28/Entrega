@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence         http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+  <!-- unidade de persistencia com o nome empresa -->
+  <persistence-unit name="empresa">
+    <!-- Implementação do JPA, no nosso caso Hibernate -->
+    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+    <!-- Aqui são listadas todas as Entidades/Especificaçõe das Classes -->
+    <class>br.com.william.modelo.Funcionario</class>
+    <class>br.com.william.modelo.Cliente</class>
+    <class>br.com.william.modelo.Peca</class>
+    <properties>
+      <!-- Propriedades JDBC -->
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <!-- Nome do banco de dados: empresa
+				Se quiser alterar o nome do banco de dados é só trocar a empresateste pelo nome do seu banco.-->
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/empresa"/>
+      <!-- Aqui você deverá alterar para o user e password do usuário do seu banco de dados -->
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+      <!-- Configurações específicas do Hibernate -->
+      <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect"/>
+      <property name="hibernate.hbm2ddl.auto" value="update"/>
+      <property name="hibernate.show_sql" value="true"/>
+      <property name="hibernate.format_sql" value="true"/>
+    </properties>
+  </persistence-unit>
+</persistence>
+
